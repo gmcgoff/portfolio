@@ -327,7 +327,51 @@ footer div {
     text-align: center;
 }
 
-/* Media Queries for Responsiveness */
+/* Repo list styles */
+#repo-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .repo {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .repo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .repo a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .repo a:hover {
+    color: #007bff;
+  }
+  
+  .repo .stars {
+    font-size: 14px;
+    color: #888;
+  }
+  
+
+/* Responsive styles */
 @media screen and (max-width: 768px) {
     section.resume {
         padding: 20px;
@@ -393,53 +437,6 @@ footer div {
         flex: unset;
     }
 }
-/* Repo list styles */
-#repo-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .repo {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 250px;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .repo:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  .repo a {
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    color: #333;
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  .repo a:hover {
-    color: #007bff;
-  }
-  
-  .repo .stars {
-    font-size: 14px;
-    color: #888;
-  }
-  
-
-
-
-/* Responsive styles */
 @media screen and (max-width: 556px) {
     .hamburgerMenu {
         color: white;
