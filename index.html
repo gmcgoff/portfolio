@@ -1,17 +1,138 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <meta name="viewport" width="device-width, initial-scale=1.0">
+        <meta lang="en" charset="UTF-8">
+        <meta title="Gaven McGoff's Portfolio">
+        <title>Gaven McGoff's Portfolio</title>
+        <meta name="description" content="">
+        <!-- Favicon -->
+         <link rel="icon" type="image/png" sizes="16x16" href="public/icons8-dev-32.png">
+        <!-- CSS Styles -->
+        <link rel="stylesheet" href="src/css/styles.css">
+        <!--Awesome Fonts-->
+        <script src="https://kit.fontawesome.com/cb06da1028.js" crossorigin="anonymous"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <body>
         <header>
-
+            <nav class="show">
+                <span class="hamburgerMenu"><i class="fa-solid fa-bars"></i></span>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="src/pages/projects.html">Projects</a></li>
+                    <li><a href="src/pages/contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
         </header>
         <main>
-            <h1>This is a test!</h1>
+            <!-- Hero section -->
+            <section class="hero">
+                <div class="heroContainer">
+                    <div class="heroImage">
+                        <img src="src/assets/portrait.jpg" alt="portrait picture" style="border-radius: 50%;">
+                    </div>
+                    <div class="heroText">
+                        <h1>Gaven McGoff</h1>
+                        <h3>Aspiring Front-End Web Developer</h3>
+                        <p>Some short text</p>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <div class="aboutContainer">
+                <h2>About Me</h2>
+                    <p>Lorem ipsum odor amet, consectetuer adipiscing elit. In phasellus convallis euismod curae ac sollicitudin ornare. Quisque feugiat odio euismod neque imperdiet erat montes pulvinar. Pulvinar venenatis nullam lacus nec maximus nulla montes purus. Auctor vehicula velit ultricies id aptent libero ipsum rhoncus nisl. Pretium sagittis volutpat neque dui primis class id risus! Aenean blandit luctus nam; curae venenatis dis.</p>
+
+                    <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Maximus diam nisi fermentum; auctor parturient suspendisse facilisis. Viverra facilisi nisi torquent convallis in adipiscing eu facilisi. Consequat pellentesque aliquam nostra accumsan phasellus tincidunt tincidunt. Sit id id curabitur consectetur quisque mus consectetur nascetur? Leo facilisis imperdiet eget dictumst malesuada et nisi venenatis fames. Egestas ad in; sagittis maximus sodales libero phasellus ad hac. Cursus sed dictum turpis, vehicula sodales ante quisque.</p>
+            </div>
+            </section>
+            <section class="skills">
+                <h2>My Top Skills</h2>
+                <div>
+                    <img src="src/assets/icons8-html5-96.png" alt="HTML5 Favicon" class="bobble">
+                    <img src="src/assets/icons8-css-96.png" alt="CSS Favicon" class="bobble">
+                    <img src="src/assets/icons8-javascript-96.png" alt="JavaScript Favicon"class="bobble">
+                    <img src="src/assets/icons8-git-96.png" alt="Git Favicon" class="bobble">
+                    <img src="src/assets/icons8-github-96.png" alt="GitHub Favicon" class="bobble">
+                </div>
+            </section>
+            <section class="resume">
+                <div class="resume-content">
+                    <h2>Resume</h2>
+                    <h3>Gaven McGoff</h3>
+                    <p class="contact-info">Monroe, Wisconsin 53566 | 608-214-6958 | mcgogaven@gmail.com</p>
+            
+                    <h3>Profile</h3>
+                    <p class="profile-description">Friendly and engaging team player ready to perform their best. Ambitious to get their foot in the door and ready to work hard to impress. Has a great track record from previous jobs. They have a passion to learn new things and overcome any obstacles in their path. Has strong computer skills using both PC and Mac.</p>
+            
+                    <h3>Experience</h3>
+                    <h4>STORE CLERK | SWISS COLONY | MONROE, WI | JULY 2022 – PRESENT</h4>
+                    <ul>
+                        <li>Working well with a team to accomplish tasks.</li>
+                        <li>Communicate with team members to solve problems.</li>
+                        <li>Use time management to get jobs done on time.</li>
+                        <li>Provide excellent customer service in a fast-paced work environment.</li>
+                    </ul>
+            
+                    <h3>Education</h3>
+                    <h4>ASSOCIATE DEGREE – WEB SOFTWARE DEVELOPER | BLACKHAWK TECHNICAL COLLEGE | JANESVILLE WI | ANTICIPATED MAY 2025 | OVERALL GPA 3.6</h4>
+                    <h4>Completed Relevant Courses from Blackhawk</h4>
+                    <div class="course-list">
+                        <ul>
+                            <li>Design Basics for Front-end Development</li>
+                            <li>Introduction to Programming</li>
+                            <li>Markup Basics</li>
+                            <li>Web Servers and Web Server Administration</li>
+                            <li>High Level Scripting</li>
+                        </ul>
+                        <ul>
+                            <li>Content Management Systems 1</li>
+                            <li>Emerging Technologies Capstone</li>
+                            <li>Programming</li>
+                            <li>Responsive Design</li>
+                            <li>Relational Database Design & Development</li>
+                        </ul>
+                    </div>
+            
+                    <h3>Skills & Abilities</h3>
+                    <div class="skills-list">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                            <li>Python</li>
+                            <li>Project Management</li>
+                            <li>GitHub Version Control</li>
+                        </ul>
+                        <ul>
+                            <li>Strong Communication</li>
+                            <li>Team Collaboration</li>
+                            <li>Problem Solving</li>
+                            <li>Time Management</li>
+                            <li>Adaptable</li>
+                            <li>Friendly</li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="/src/assets/Resume.pdf" download class="resumeButton"><button>Download Resume Here</button></a>
+            </section>
         </main>
         <footer>
-
+            <div>
+                <h3>Socials</h3>
+                <a href="#"><img src="src/assets/icons8-facebook-48.png" alt="FaceBook Icon"></a>
+                <a href="#"><img src="src/assets/icons8-linkedin-48.png" alt="Linkedin Icon"></a>
+                <a href="#"><img src="src/assets/icons8-github-48.png" alt="GitHub Icon"></a>
+                <p class="center">Icons by <a href="https://icons8.com/">Icons8</a> &copy; Copyright 2025</p>
+            </div>
         </footer>
+        <script src="src/scripts/scripts.js"></script>
     </body>
 </html>
+<!--  -->
