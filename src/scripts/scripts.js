@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const repoItem = document.createElement('div');
                     repoItem.classList.add('repo');
                     repoItem.innerHTML = `
-                        <a href="${repo.html_url}" target="_blank">${repo.name}</a> – ⭐ ${repo.stargazers_count}
+                        <a href="${repo.html_url}" target="_blank">${repo.name}</a> – ⭐ ${repo.stargazers_count} <br> - &#128064;  ${repo.watchers_count}
                     `;
                     repoList.appendChild(repoItem);
                 });
